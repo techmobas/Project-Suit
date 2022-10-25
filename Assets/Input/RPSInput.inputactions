@@ -1,0 +1,74 @@
+{
+    "name": "RPSInput",
+    "maps": [
+        {
+            "name": "Player",
+            "id": "f43a5e60-7501-4b34-b5a5-55e8615558e1",
+            "actions": [
+                {
+                    "name": "Rock",
+                    "type": "Button",
+                    "id": "f92af752-5efe-4af2-9314-0b45fae782ae",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "Paper",
+                    "type": "Button",
+                    "id": "02c4ce4b-1ffd-41f6-96a6-e750c3b1e0a2",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "Scissors",
+                    "type": "Button",
+                    "id": "a3195ff4-1ba0-4191-a0f7-738ca36776f2",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "e0115c92-5d36-4313-8d2f-5db2d22618bc",
+                    "path": "<Keyboard>/r",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Rock",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "2e27a186-dc16-45f4-a001-1e811a8cf8aa",
+                    "path": "<Keyboard>/p",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Paper",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "df89a68d-54a3-45fd-8b96-aa79ce22295d",
+                    "path": "<Keyboard>/s",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Scissors",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": []
+}
